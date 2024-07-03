@@ -1,0 +1,39 @@
+<html>
+<head>
+	<title>Student Registration Form</title>
+	<link rel="stylesheet" href="C:\Users\ramav\OneDrive\Desktop\Projects\Registration\css\design.css">
+</head>
+<body>
+<div class="main">
+	<h1>STUDENT REGISTRATION FORM</h1>
+	<form name="frm" action="">
+		<label for="name">Full Name:</label>
+		<input type="text" id="name" name="name">
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" pattern="[a-z0-9,-]+\.[a-z]{2,}$">
+		<label for="mo.no">Mo.No.:</label>
+		<input type="tel" name="Mobile No.:" maxlength="10"/>
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password">
+		<label for="password">Re-type Password:</label>
+		<input type="password" id="repassword" name="repassword">
+		<label for="gender">Gender:</label>
+		<select id="gender" name="gender">
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+			<option value="other">Other</option>
+		</select>
+		<label for="edu">Education:</label>
+		<select id="edu" name="edu">
+			<option value="SSC or less">SSC or less</option>
+			<option value="HSC">HSC</option>
+			<option value="Graduation">Graduation</option>
+			<option value="Post Graduation">Post Graduation</option>
+			<option value="other">Other</option>
+		</select>
+		<input type="submit" value="Register"><br/>
+		<BR>Already Registered?<a href="C:\Users\ramav\OneDrive\Desktop\Projects\Registration\login form.htm">Click Here To Login </a>	
+	</form>
+</div>
+</body>
+</html>
